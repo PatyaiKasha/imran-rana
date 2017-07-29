@@ -143,8 +143,12 @@ a {
 
     .btn-default {
         color: #fff;
-        background-color: transparent;
+        background: transparent;
         border-color: #fff;
+        &:hover {
+            background: $primary-color;
+            color: #fff;
+        }
     }
 }
 

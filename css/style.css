@@ -97,8 +97,11 @@ a {
     display: inline-block; }
   .form-fit-back .btn-default {
     color: #fff;
-    background-color: transparent;
+    background: transparent;
     border-color: #fff; }
+    .form-fit-back .btn-default:hover {
+      background: #6A9199;
+      color: #fff; }
 
 input::placeholder {
   color: #fff;
